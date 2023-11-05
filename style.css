@@ -37,5 +37,26 @@ body {
     text-decoration: none;
     color: white;
     text-align: center;
+    cursor: pointer;
 
+}
+
+#btn:hover {
+    background-color: green;
+}
+
+#navbar {
+    color: whitesmoke;
+    position: fixed;
+    top: 0px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+}
+
+.nav-link a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
 }
